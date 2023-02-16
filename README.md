@@ -1,6 +1,7 @@
 # Arabic_NLP
 This repository contain some scripts can process  the Arabic Language :
 
- 1. Clean_Master_AR.py : used to Clean a data without punctuation marks.
- 2. Clean_Master_Arabic_4_Punct-Train.py:  used for Clean a data with keeping the arabic punctuation marks [؟!؛،.].
- 3. dataset_split.sh: useful to separate a data text into 3: train, test, and val.
+ - dataset_split.sh: useful to separate a data text into 3: train, test, and val.
+ - cleaner_ar_data.py: useful to clean any Arabic data, also you can used to clean data for punctuattion task or for Language model (without punctuation marks)
+ * Clean data for punctation task:
+`python3 cleaner_ar_data.py --punctuation --input=<path_to_input_text> --output=<path_to_output_text>`
