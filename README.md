@@ -11,3 +11,7 @@ This repository contain some scripts can process  the Arabic Language :
   ```
   python3 cleaner_ar_data.py --forlm --input=<path_to_input_text> --output=<path_to_output_text>
   ```
+### Spelit data task:
+```
+./dataset_split.sh <path_text_to_split> <folder_of_output>
+```
