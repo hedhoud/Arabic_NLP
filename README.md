@@ -10,5 +10,4 @@ This repository contain some scripts can process  the Arabic Language :
 ### Clean data for language model task:
   ```
   python3 cleaner_ar_data.py --forlm --input=<path_to_input_text> --output=<path_to_output_text>
-  
   ```
